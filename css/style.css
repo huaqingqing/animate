@@ -1,0 +1,344 @@
+.welcome{
+padding:80px 0;
+}
+.wel-grids{
+margin-top:50px;
+}
+.wel-grid .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #2ad2c9;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;	
+}
+.glyphicon-grain, .glyphicon-apple, .glyphicon-tree-conifer, .glyphicon-leaf, .glyphicon-thumbs-up, .glyphicon-globe {
+  z-index: 9999;
+  top: 27px;
+  left: 0px;
+  font-size: 45px;
+  color: #fff;
+}
+.wel-grid .icon img {
+  padding: 23px 0 0 0;
+  position: relative;
+  z-index: 100;
+  transition: all 0.3s ease 0s;
+}
+.wel-grid .icon:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:#020202;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+.wel-grid:hover .icon img {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.wel-grid:hover .icon:before {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.wel-grid.btm-gre  .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #020202;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;	
+}
+.wel-grid.btm-gre .icon:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:#2ad2c9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+.wel-grid.btm-gre:hover .icon img {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.wel-grid.btm-gre:hover .icon:before {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.wel-grid h3{
+margin: 16px 0 9px 0;
+font-size: 18px;
+color:#020202;
+font-family: 'Roboto Slab', serif;
+}
+.wel-grid.btm-gre h3{
+color:#2ad2c9 !important;
+}
+.wel-grid p {
+  font-size: 13px;
+  margin: 7px 0;
+  color:#020202;
+  line-height: 1.8em;
+}
+.wel-grid:nth-child(4),.wel-grid:nth-child(5),.wel-grid:nth-child(6){
+margin-top:50px;
+}
+/*-- //welcome --*/
+/*-- pests-control --*/
+.ch-item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.ch-info-wrap{
+	position: absolute;
+  width: 89%;
+  height: 262px;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	top: 20px;
+	left: 20px;
+	background: #ffffff url(../images/bg.jpg);
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	-webkit-box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	-moz-box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	-o-box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	-ms-box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+
+.ch-info{
+	position: absolute;
+  width: 100%;
+  height: 100%;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform:rotate3d(0,1,0,180deg);
+	-moz-transform:rotate3d(0,1,0,180deg);
+	-o-transform:rotate3d(0,1,0,180deg);
+	-ms-transform:rotate3d(0,1,0,180deg);
+	transform:rotate3d(0,1,0,180deg);
+	background: #2ad2c9;
+	  -webkit-background: #2ad2c9;
+  -o-background: #2ad2c9;
+  -ms-background: #2ad2c9;
+  -moz-background: #2ad2c9;
+}
+
+.ch-img-1 { 
+	background-image: url(../images/10.jpg);
+  -webkit-background-image: url(../images/10.jpg);
+  -o-background-image: url(../images/10.jpg);
+  -ms-background-image: url(../images/10.jpg);
+  -moz-background-image: url(../images/10.jpg);
+	  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.ch-img-2 { 
+	background-image: url(../images/11.jpg);
+  -webkit-background-image: url(../images/11.jpg);
+  -o-background-image: url(../images/11.jpg);
+  -ms-background-image: url(../images/11.jpg);
+  -moz-background-image: url(../images/11.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.ch-img-3 { 
+	background-image: url(../images/12.jpg);
+  -webkit-background-image: url(../images/12.jpg);
+  -o-background-image: url(../images/12.jpg);
+  -ms-background-image: url(../images/12.jpg);
+  -moz-background-image: url(../images/12.jpg);
+	  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.ch-info h3 {
+font-family: 'Roboto Slab', serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 28px;
+  margin: 0 8px 23px 8px;
+  padding: 67px 0 0 0;
+  text-shadow: 0 0 1px #fff, 
+ 0 1px 2px rgba(0,0,0,0.3);
+   -webkit-text-shadow: 0 0 1px #fff, 
+ 0 1px 2px rgba(0,0,0,0.3);
+   -ms-text-shadow: 0 0 1px #fff, 
+ 0 1px 2px rgba(0,0,0,0.3);
+   -moz-text-shadow: 0 0 1px #fff, 
+ 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+line-height:1.8em;
+	color: #020202;
+	padding: 10px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-item:hover .ch-info-wrap {
+  -webkit-box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+  -o-box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+  -ms-box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+  -moz-box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.ch-item:hover .ch-info {
+	-webkit-transform:rotate3d(0,1,0,-180deg);
+	-moz-transform:rotate3d(0,1,0,-180deg);
+	-o-transform:rotate3d(0,1,0,-180deg);
+	-ms-transform:rotate3d(0,1,0,-180deg);
+	transform:rotate3d(0,1,0,-180deg);
+}
+.ch-grid {
+	margin: 50px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+.pests-grid {
+	width: 100%;
+	height: 302px;
+	display: inline-block;
+
+}
+.img{
+  margin:20px 20px;
+}
+.img a{
+  width:250px;
+  height: 150px;
+  overflow: hidden;
+  display: block;
+  border:1px solid;
+}
+.img img{
+  transition: all 1s ease;
+}
+.img img:hover{
+  transform: scale(1.15) rotate(5deg);
+  overflow: hidden;
+}
